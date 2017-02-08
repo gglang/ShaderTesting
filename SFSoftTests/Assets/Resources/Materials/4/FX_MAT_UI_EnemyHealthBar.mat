@@ -1,0 +1,229 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FX_MAT_UI_EnemyHealthBar
+  m_Shader: {fileID: 4800000, guid: 51ccf0fa40b35074fb5337d3275b1e83, type: 3}
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Gradient
+      second:
+        m_Texture: {fileID: 2800000, guid: dd862fd024b057d49bdf65e0e0dcab99, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Overlay
+      second:
+        m_Texture: {fileID: 2800000, guid: 4871bc1981a437e47a0f5a267520c2bd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Particles
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SAlphaTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 4133320671761414fbf725133825b83a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Shadow
+      second:
+        m_Texture: {fileID: 2800000, guid: 6e639565abe997a4a9fc3c898c57650a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Smoke
+      second:
+        m_Texture: {fileID: 2800000, guid: 6f56e0bedf62f2d48b4dd713116cea30, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SurfaceTexture
+      second:
+        m_Texture: {fileID: 2800000, guid: 347beb22a29a99c4aa6f867d357da39d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _uva
+      second:
+        m_Texture: {fileID: 2800000, guid: 8003aa2c6d2ca9a4e92dc267780a760b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _DstBlend
+      second: 0
+    - first:
+        name: _Fill
+      second: 1
+    - first:
+        name: _GlossMapScale
+      second: 1
+    - first:
+        name: _Glossiness
+      second: 0.5
+    - first:
+        name: _GlossyReflections
+      second: 1
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _Mode
+      second: 0
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _P1Mul
+      second: 0.538
+    - first:
+        name: _P2Mul
+      second: 0.433
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _Particles1OffsetX
+      second: 1.2907504
+    - first:
+        name: _Particles1OffsetY
+      second: 0.98548514
+    - first:
+        name: _Particles1Tiling
+      second: 2
+    - first:
+        name: _Particles2OffsetX
+      second: 1.2907504
+    - first:
+        name: _Particles2OffsetY
+      second: 0.98548514
+    - first:
+        name: _Particles2Tiling
+      second: 0.8
+    - first:
+        name: _Smoke1OffsetX
+      second: 0.24159122
+    - first:
+        name: _Smoke1OffsetY
+      second: 0.394224
+    - first:
+        name: _Smoke1Tiling
+      second: 2
+    - first:
+        name: _Smoke2OffsetX
+      second: 0.42446366
+    - first:
+        name: _Smoke2OffsetY
+      second: 0.42446366
+    - first:
+        name: _Smoke2Tiling
+      second: 2
+    - first:
+        name: _SmoothnessTextureChannel
+      second: 0
+    - first:
+        name: _SpecularHighlights
+      second: 1
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _SurfaceOffsetX
+      second: 1.0788174
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _ZWrite
+      second: 1
+    m_Colors:
+    - first:
+        name: _BaseColor
+      second: {r: 1, g: 0.7655173, b: 0, a: 1}
+    - first:
+        name: _Color
+      second: {r: 0.986207, g: 1, b: 0, a: 1}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _SurfaceColor
+      second: {r: 1, g: 1, b: 1, a: 1}

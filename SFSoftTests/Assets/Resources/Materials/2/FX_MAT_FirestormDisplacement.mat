@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FX_MAT_FirestormDisplacement
+  m_Shader: {fileID: 4800000, guid: 06671cac5baeaa74795e51e3793b68d4, type: 3}
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _AlphaMask
+      second:
+        m_Texture: {fileID: 2800000, guid: 99de55335c13dfb4484b5782b57b6395, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Direction
+      second:
+        m_Texture: {fileID: 2800000, guid: 12dc34954dfe08641b8a082c9242063e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Mask
+      second:
+        m_Texture: {fileID: 2800000, guid: 4dfef9f64da43534fb04db56df29a24c, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Texture1
+      second:
+        m_Texture: {fileID: 2800000, guid: b33841bd48566c346bcf92dac239376d, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Texture2
+      second:
+        m_Texture: {fileID: 2800000, guid: b33841bd48566c346bcf92dac239376d, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _WaveMask
+      second:
+        m_Texture: {fileID: 2800000, guid: 4dfef9f64da43534fb04db56df29a24c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _WaveTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 4dfef9f64da43534fb04db56df29a24c, type: 3}
+        m_Scale: {x: 1, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_3434
+      second:
+        m_Texture: {fileID: 2800000, guid: 6d05b98eb6fc9cd498fbcde1dc2c894b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_5530
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _Darkness
+      second: 1
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _DisplacementMultiplyer
+      second: 6
+    - first:
+        name: _DstBlend
+      second: 0
+    - first:
+        name: _FadeOut
+      second: 2
+    - first:
+        name: _GlossMapScale
+      second: 1
+    - first:
+        name: _Glossiness
+      second: 0.5
+    - first:
+        name: _GlossyReflections
+      second: 1
+    - first:
+        name: _MaskXSpeed
+      second: 0
+    - first:
+        name: _MaskYSpeed
+      second: 1.48
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _Mode
+      second: 0
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _OverallOpacity
+      second: 1
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _SmokeOpacity
+      second: 1
+    - first:
+        name: _SmoothnessTextureChannel
+      second: 0
+    - first:
+        name: _SpecularHighlights
+      second: 1
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _WaveHeight
+      second: 25
+    - first:
+        name: _WaveSpeed
+      second: 5
+    - first:
+        name: _XSpeed1
+      second: 0
+    - first:
+        name: _XSpeed2
+      second: 0
+    - first:
+        name: _Xspeed1
+      second: 0.1
+    - first:
+        name: _Xspeed2
+      second: -0.06
+    - first:
+        name: _YSpeed1
+      second: 0
+    - first:
+        name: _YSpeed2
+      second: 0
+    - first:
+        name: _Yspeed1
+      second: 0.05
+    - first:
+        name: _Yspeed2
+      second: -0.08
+    - first:
+        name: _ZWrite
+      second: 1
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 0.22758621, b: 0, a: 1}
+    - first:
+        name: _Color1
+      second: {r: 0, g: 0.751724, b: 1, a: 1}
+    - first:
+        name: _Color2
+      second: {r: 0, g: 0.6689658, b: 1, a: 1}
+    - first:
+        name: _ColorTint
+      second: {r: 1, g: 0.6544118, b: 0.6544118, a: 0.716}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _FireColor
+      second: {r: 0.9117647, g: 0.4654993, b: 0.060337372, a: 1}
+    - first:
+        name: _SmokeColor
+      second: {r: 1, g: 0, b: 0, a: 1}
+    - first:
+        name: _node_2278
+      second: {r: 0.625, g: 1, b: 1, a: 1}
+    - first:
+        name: _node_2886
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}

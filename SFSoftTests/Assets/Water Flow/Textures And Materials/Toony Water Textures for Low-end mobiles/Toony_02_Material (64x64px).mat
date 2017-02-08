@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Toony_02_Material (64x64px)
+  m_Shader: {fileID: 4800000, guid: a14eb4a5139d9c344b5d2ca63b3c61d6, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: c2c39e0d803efc14da8a5ae08db05f98, type: 3}
+          m_Scale: {x: 4, y: 4}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _HeightMap1
+        second:
+          m_Texture: {fileID: 2800000, guid: dfa4cc6ed9334ff43b4ae4cbc4b0410c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _HeightMap2
+        second:
+          m_Texture: {fileID: 2800000, guid: dfa4cc6ed9334ff43b4ae4cbc4b0410c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _MainTexMultiply
+        second: 1.08928573
+      data:
+        first:
+          name: _MainTexMoveSpeedU
+        second: 1.92857158
+      data:
+        first:
+          name: _MainTexMoveSpeedV
+        second: .285714209
+      data:
+        first:
+          name: _MainTexTile
+        second: 4
+      data:
+        first:
+          name: _HeightMapTile
+        second: 2
+      data:
+        first:
+          name: _MainTexRefraction
+        second: .450000018
+      data:
+        first:
+          name: _HeightMapStrength
+        second: 1.33928573
+      data:
+        first:
+          name: _HeightMapMultiply
+        second: .162500009
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _MainTexColor
+        second: {r: 1, g: 1, b: 1, a: .70588237}

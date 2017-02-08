@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{7CBDED6E-6178-BE2B-5685-47962979E71F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_VIDEO;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNIG;UNITY_GFX_USE_PLATFORM_VSYNC;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_IL2CPP;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ScreenOverlay.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\UnityPBSLighting.cginc" />
+     <None Include="Assets\AmplifyColor\Resources\Preview.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Alpha-BumpSpec.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\AutoLight.cginc" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_FogAdditive.shader" />
+     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+     <None Include="Assets\Shaders\Water Simple.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\GIDebug\UV1sAsPositions.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Internal-Halo.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Internal-GUITextureClip.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Unlit\Unlit-Color.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Particle AddSmooth.shader" />
+     <None Include="Assets\SFSoftShadows\Resources\SFShadowMask.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Cubemaps\CubeBlend.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Internal-GUITextureClipText.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\TerrainShaders\Trees\BillboardTree.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Normal-DiffuseFast.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\AlphaTest-Bumped.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Mobile\Mobile-VertexLit-OnlyDirectionalLights.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Mobile\Mobile-Particle-Multiply.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Normal-VertexLit.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Reflect-VertexLit.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Flare.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Mobile\Mobile-BumpSpec-1DirectionalLight.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\UI\UI-Unlit-Transparent.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Illumin-VertexLit.shader" />
+     <None Include="Assets\FX\FX2\Shaders\DELETEMELATER.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeaves.shader" />
+     <None Include="Assets\AmplifyColor\Textures\Preview\ImageCC.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\AlphaTest-Glossy.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_GravityWell.shader" />
+     <None Include="Assets\Shaders\Water Heightmap AlphaLitZ.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\Water Flow\Readme.txt" />
+     <None Include="Assets\AmplifyColor\Resources\MaskBlend.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\SpeedTreeVertex.cginc" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Lightmap-Bumped.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_FireCracks.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorBarkRendertex.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceRaytrace.cginc" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Illumin-BumpSpec.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\TerrainShaders\Details\VertexLit.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\UI\UI-Lit-Refraction.shader" />
+     <None Include="Assets\SFSoftShadows\Resources\SFLightBlendLinear.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\UnityMetaPass.cginc" />
+     <None Include="Assets\SFSoftShadows\Resources\SFSoftShadowOpaqueCutout.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_ChainLink.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+     <None Include="Assets\2DLightAsset\Shaders\Gradient-NoTexture-Radial-SingleColor-ToTransparent-RegularUV-AlphaBlend.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_TriangleRune.shader" />
+     <None Include="Assets\FX\FX2\Shaders\UI_Shader_TopOfTheOrbSubPointers.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_Fire.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Nature\SpeedTreeBillboard.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Particle Premultiply Blend.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\UI\UI-DefaultETC1.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\UnityStandardInput.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_WavePushBackTrail.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Alpha-Glossy.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\UI\UI-Default.shader" />
+     <None Include="Assets\Particle_Dissolve_Shader\Shaders\legacy\DissolveSoft_Alpha_Unlit.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_CoolDown.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Internal-ScreenSpaceShadows.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeavesFastOptimized.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Unlit\Unlit-Normal.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResources\PerformanceTools\FrameDebuggerRenderTargetDisplay.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\TerrainEngine.cginc" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_UI_BarMask.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\TerrainShaders\Splats\Specular-FirstPass.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\UnityBuiltin2xTreeLibrary.cginc" />
+     <None Include="Assets\Particle_Dissolve_Shader\Shaders\legacy\Dissolve_Alpha_Unlit.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Internal-PrePassLighting.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_ForceField.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Internal-MotionVectors.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\TerrainShaders\Splats\Standard-Base.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Alpha-VertexLit.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_AnimatedDisplacement.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Particle Multiply.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Normal-Diffuse.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\UnityDeferredLibrary.cginc" />
+     <None Include="Assets\Shaders\Water Diffuse.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Normal-Glossy.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\UnityStandardShadow.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Illumin-Diffuse.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Mobile\Mobile-Skybox.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\UnityStandardBRDF.cginc" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\TerrainShaders\Details\WavingGrass.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Unlit\Unlit-Alpha.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\AlphaTest-VertexLit.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Unlit\Unlit-AlphaTest.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Nature\SoftOcclusion\TreeSoftOcclusionBarkRendertex.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Water Flow\Shaders\Water Diffuse.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_LaserBackNoAnim.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\UnityStandardCoreForwardSimple.cginc" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Mobile\Mobile-VertexLit.shader" />
+     <None Include="Assets\Particle_Dissolve_Shader\Shaders\legacy\DissolveSoft_Alpha_Additive.shader" />
+     <None Include="Assets\Shaders\LocalizedGlow.shader" />
+     <None Include="Assets\AmplifyColor\Resources\Blend.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\GIDebug\TextureUV.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Cubemaps\CubeBlur.shader" />
+     <None Include="Assets\AmplifyColor\Resources\BlendCache.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Nature\SpeedTree.shader" />
+     <None Include="Assets\SFSoftShadows\Resources\SFSoftShadow.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeavesOptimized.shader" />
+     <None Include="Assets\AmplifyColor\Resources\Mask.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Water Flow\Shaders\Water Heightmap.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Normal-Bumped.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Illumin-Bumped.shader" />
+     <None Include="Assets\AmplifyColor\Samples\Check out the full LUT Package.txt" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Particle Blend.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_NewFog.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Particle Alpha Blend.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Illumin-ParallaxSpec.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Reflect-Bumped.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_SpellCircleRGBSplit.shader" />
+     <None Include="Assets\Shaders\GrabPassBlur.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\UnityUI.cginc" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_TimeWarpZone.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\AlphaTest-Diffuse.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Mobile\Mobile-Particle-Add.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\UnityStandardCore.cginc" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Sprites-Diffuse.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Skybox-Cubed.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\UnityLightingCommon.cginc" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_LifeSteal.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResources\Internal-ErrorShader.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\HLSLSupport.cginc" />
+     <None Include="Assets\SFSoftShadows\Resources\SFLightBlendSoft.shader" />
+     <None Include="Assets\2DLightAsset\Shaders\NoTexture.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Illumin-Glossy.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_PoisonCloud.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\TerrainShaders\Splats\Standard-AddPass.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Normal-DiffuseDetail.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Mobile\Mobile-BumpSpec.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Nature\SoftOcclusion\TreeSoftOcclusionLeaves.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\UnityGlobalIllumination.cginc" />
+     <None Include="Assets\Water Flow\Shaders\Water Simple.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Lightmap-Diffuse.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\SpeedTreeWind.cginc" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\UI\UI-Lit-RefractionDetail.shader" />
+     <None Include="Assets\AmplifyColor\Readme.txt" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Normal-ParallaxSpec.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\TerrainShaders\Splats\Standard-FirstPass.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Reflect-ParallaxSpec.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\AmplifyColor\Readme-LUTPack.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResources\Internal-Clear.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\UnityShaderVariables.cginc" />
+     <None Include="Assets\SFSoftShadows\Resources\SFFogLayer.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_AlphaBlendedColorBurn.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\UnityCG.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\UI\UI-Lit-Bumped.shader" />
+     <None Include="Assets\SFSoftShadows\Resources\SFSoftShadowAlphaBlendedPremultiply.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Water Flow\GUI Animator\GUI Animator FREE\!How to.txt" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Nature\SoftOcclusion\TreeSoftOcclusionBark.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Reflect-Diffuse.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_AnimatedParticle.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\TerrainSplatmapCommon.cginc" />
+     <None Include="Assets\FX\Magical\Sources\Shader\Rimlight.shader" />
+     <None Include="Assets\Water Flow\GUI Animator\GUI Animator FREE\Readme.txt" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\AlphaTest-SoftEdgeUnlit.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Internal-CombineDepthNormals.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Sprites-Default.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Decal.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Standard.shader" />
+     <None Include="Assets\Water Flow\GE Common Assets\Readme.txt" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Particle MultiplyDouble.shader" />
+     <None Include="Assets\Particle_Dissolve_Shader\Shaders\legacy\Dissolve_Alpha_Additive_Opacity.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\UnityShadowLibrary.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_NewFire.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResources\Internal-Colored.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Internal-DepthNormalsTexture.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\UnityBuiltin3xTreeLibrary.cginc" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\SpeedTreeCommon.cginc" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Alpha-Parallax.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Particle AddMultiply.shader" />
+     <None Include="Assets\Shaders\DefaultColorFlash.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Normal-Parallax.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Alpha-Bumped.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Internal-StencilWrite.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\Lighting.cginc" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\UnityStandardCoreForward.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Cubemaps\CubeCopy.shader" />
+     <None Include="Assets\AmplifyColor\Resources\ProcessOnly.shader" />
+     <None Include="Assets\FX\FX2\Shaders\IceShaderFastSimleBackFace.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\UI\UI-Unlit-TextDetail.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Particle VertexLit Blended.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_UI_ParticleMask.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_SpellCircle.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_ProjectileOrb.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\TerrainShaders\Splats\AddPass.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Illumin-Parallax.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_AlphaBlendedHue.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Internal-DeferredShading.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\SpeedTreeBillboardCommon.cginc" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Mobile\Mobile-Particle-Alpha.shader" />
+     <None Include="Assets\AmplifyColor\Resources\DepthMask.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\SubstanceOrb\SubstanceOrb\Shaders\SubstanceOrb.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\UnityInstancing.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorBarkOptimized.shader" />
+     <None Include="Assets\AmplifyColor\Resources\Common.cginc" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_UIHand.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Lightmap-Glossy.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_AlphaBlendedColorLow.shader" />
+     <None Include="Assets\Shaders\Cutout.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\TerrainShaders\Splats\FirstPass.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_LaserBackNoBlend.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\UI\UI-Unlit-Detail.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Internal-Flare.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Skybox-Procedural.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\GIDebug\VertexColors.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\UI\UI-DefaultFont.shader" />
+     <None Include="Assets\AmplifyColor\Resources\DepthMaskBlend.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_AlphaBlendedTint.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\TerrainShaders\Splats\Specular-Base.shader" />
+     <None Include="Assets\AmplifyColor\Resources\Base.shader" />
+     <None Include="Assets\Shaders\OverdrawTestCutout.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeavesRendertex.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\UI\UI-Unlit-Text.shader" />
+     <None Include="Assets\2DLightAsset\Shaders\Gradient-ZFighting.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_FirestormDisplacement.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Reflect-BumpSpec.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Lightmap-BumpSpec.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\UnityStandardUtils.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Reflect-Parallax.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Reflect-BumpNolight.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\AlphaTest-BumpSpec.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\SFSoftShadows\Changelog.txt" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\TerrainShaders\Details\WavingGrassBillboard.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Internal-GUITexture.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\UI\UI-Lit-Transparent.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Mobile\Mobile-Bumped.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\TerrainShaders\Splats\Specular-AddPass.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_SpiralingFog.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_FireCracksAdd.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResources\Font.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Mobile\Mobile-Lightmap-Unlit.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Cubemaps\CubeBlurOdd.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Alpha-ParallaxSpec.shader" />
+     <None Include="Assets\FX\FX2\Shaders\UI_Shader_TopOfTheOrbAdd.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_LaserBack.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_Orbs.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Mobile\Mobile-Diffuse.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_TornadoBaseWind.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Internal-GUITextureBlit.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Alpha-Diffuse.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Mobile\Mobile-Particle-Alpha-VertexLit.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Internal-DeferredReflections.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_WarpInside.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\Tessellation.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_SpellCircleFullIntendedBehavior.shader" />
+     <None Include="Assets\FX\FX2\Shaders\IceShaderFastSimple.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Internal-BlitCopy.shader" />
+     <None Include="Assets\Particle_Dissolve_Shader\Shaders\legacy\Dissolve_Alpha_Additive.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Particle Add.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\UI\UI-Lit-Detail.shader" />
+     <None Include="Assets\SFSoftShadows\Resources\SFSoftShadowAlphaBlended.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\UnityStandardConfig.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Normal-BumpSpec.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Nature\SoftOcclusion\TreeSoftOcclusionLeavesRendertex.shader" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_GroundCracks.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_WarpInsideAlpha.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\CGIncludes\UnityStandardMeta.cginc" />
+     <None Include="Assets\Shaders\Water Heightmap.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Reflect-BumpVertexLit.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Lightmap-VertexLit.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorLeavesFast.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Nature\TreeCreator\TreeCreatorBark.shader" />
+     <None Include="Assets\FX\FX2\Shaders\FX_Shader_Fog.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Reflect-Glossy.shader" />
+     <None Include="Assets\FX\FX2\Shaders\IceShaderDistortion.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\Skybox.shader" />
+     <None Include="Assets\SFSoftShadows\Resources\SFHDRClamp.shader" />
+     <None Include="Assets\Standard Assets\builtin_shaders-5\DefaultResourcesExtra\StandardSpecular.shader" />
+     <None Include="Assets\FX\FX2\Shaders\UI_Shader_TopOfTheOrbAlpha.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="AmplifyColor">
+ <HintPath>/Users/some_1337/git/ShaderTesting/SFSoftTests/Assets/AmplifyColor/Plugins/AmplifyColor.dll</HintPath>
+ </Reference>
+ <Reference Include="GETween">
+ <HintPath>/Users/some_1337/git/ShaderTesting/SFSoftTests/Assets/Water Flow/GUI Animator/Common/Plugins/GETween.dll</HintPath>
+ </Reference>
+ <Reference Include="GUIAnimatorFREE">
+ <HintPath>/Users/some_1337/git/ShaderTesting/SFSoftTests/Assets/Water Flow/GUI Animator/GUI Animator FREE/Plugins/GUIAnimatorFREE.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
